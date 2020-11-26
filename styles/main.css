@@ -24,7 +24,7 @@ footer {
 .content {
     margin: 100px;
     display: block;
-    font-family: 'Montserrat';
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -41,7 +41,7 @@ footer {
 }
 
 .inner-footer {
-    font-family: 'Montserrat';
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     width: 90%;
     padding: 10px 0 0 30px;
@@ -57,7 +57,7 @@ footer {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Montserrat';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
 }
 
@@ -108,7 +108,7 @@ button {
     border-radius: 10px;
     overflow: hidden;
     transition: 1s;
-    font-family: 'Montserrat';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
