@@ -1,0 +1,174 @@
+header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: rgb(241, 241, 241);
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-size: cover;
+    background-color: rgb(39, 51, 61);
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(133, 186, 224);
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.content {
+    margin: 100px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.content span{
+    background-color: rgb(106, 126, 140);
+    color: rgb(0, 0, 0);
+}
+
+.inner-header {
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.inner-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 90%;
+    padding: 10px 0 0 30px;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.black-text {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.black-text span{
+    font-weight: 1000;
+}
+
+.right-nav {
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: table;
+}
+
+.buttons-right-nav {
+    width: 75%;
+    float:right;
+}
+
+.button {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20px;
+}
+
+.button-final {
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.button-final button {
+    width: 300px;
+    height: 80px;
+    font-size: 24px;
+}
+
+button {
+    background: rgb(6, 27, 44);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: rgb(224, 239, 250);
+    color: black;
+    cursor: pointer;
+}
+
+.topgg {
+    display: block;
+    align-self: center;
+}
+
+.example-left {
+    display: inline-block;
+    width: 50%;
+}
+.example-right {
+    display: inline-block;
+    width: 50%;
+}
+
+section {
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+
+.example-right img {
+    float: right;
+    width: 480px;
+    height: 270px;
+    border: none;
+    border-radius: 30px;
+}
+.example-left img {
+    float: left;
+    width: 480px;
+    height: 270px;
+    border: none;
+    border-radius: 30px;
+}
+
+.description-right {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+}
+
+.description-left {
+    float: left;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.final {
+    float: center;
+    text-align: center;
+    vertical-align: middle;
+}
