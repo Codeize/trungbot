@@ -13,10 +13,10 @@ body {
 
 .diagonalStripes {
     background-image: repeating-linear-gradient( -45deg,
-    #3A506B,
-    #3A506B 20px,
-    #0B132B 20px,
-    #0B132B 40px);
+    #10161d,
+    #10161d 20px,
+    #1d2335 20px,
+    #1d2335 40px);
     background-size: 200% 200%;
     animation: diagonalSlide 30s linear infinite;
 
@@ -67,9 +67,17 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
-    background: white;
+    background: rgb(26, 26, 26);
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
     padding: 20px;
     margin-top: 30px;
+}
+
+.content span{
+    font-size: 12px;
+    font-weight: 400;
 }
 
 button {
