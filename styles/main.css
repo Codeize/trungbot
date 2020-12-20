@@ -18,7 +18,7 @@ body {
     #1d2335 20px,
     #1d2335 40px);
     background-size: 200% 200%;
-    animation: diagonalSlide 30s linear infinite;
+    animation: diagonalSlide 100s linear infinite;
 
 
 }
@@ -38,7 +38,7 @@ body {
 .parent-content{
     display: block;
     margin-top: 140px;
-    width: 50%;
+    width: 65vw;
     height: auto;
 }
 
@@ -49,9 +49,18 @@ body {
     height: 128px;
 }
 
+.subh {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
 .parent-content h1{
     display: inline;
-    margin-left: 30px;
     font-size: 70px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -81,21 +90,21 @@ body {
 }
 
 button {
-    background: rgb(6, 27, 44);
+    background: black;
     color: white;
     width: 150px;
     height: 40px;
     font-size: 18px;
     border: none;
-    border-radius: 10px;
+    border-radius:3px;
     overflow: hidden;
-    transition: 1s;
+    transition: 0.5s;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button:hover {
-    transition: 1s;
-    background-color: rgb(224, 239, 250);
+    transition: 0.5s;
+    background-color: white;
     color: black;
     cursor: pointer;
 }
@@ -104,4 +113,13 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.br{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
